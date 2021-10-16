@@ -17,6 +17,7 @@ a:active {
 ul {
   list-style: none;
   text-align: center;
+  font-size: 30px;
 }
 
 li {
