@@ -37,8 +37,13 @@ header {
 }
 
 .logo {
-  height: auto;
+  /* height: auto; */
   width: 35%;
+  margin-top: 40px;
+}
+
+.logo:hover {
+  box-shadow: 0 5px 35px 0px orange;
 }
 
 .octonaut {

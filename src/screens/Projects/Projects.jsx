@@ -16,6 +16,7 @@ export default function Projects() {
           jobs.
         </p>
         <a
+          className="projects-link"
           href="https://eileen813.github.io/City-Slicker/"
           target="_blank"
           rel="noreferrer"
@@ -24,6 +25,7 @@ export default function Projects() {
         </a>
 
         <a
+          className="projects-link"
           href="https://github.com/eileen813/City-Slicker"
           target="_blank"
           rel="noreferrer"
@@ -42,6 +44,7 @@ export default function Projects() {
           data to render, create, edit, or delete one or all chores.
         </p>
         <a
+          className="projects-link"
           href="https://chore-box.netlify.app/"
           target="_blank"
           rel="noreferrer"
@@ -50,6 +53,7 @@ export default function Projects() {
         </a>
 
         <a
+          className="projects-link"
           href="https://github.com/eileen813/chorebox"
           target="_blank"
           rel="noreferrer"
@@ -76,6 +80,7 @@ export default function Projects() {
           Material UIs Cards component.
         </p>
         <a
+          className="projects-link"
           href="https://tacato-truck.netlify.app/"
           target="_blank"
           rel="noreferrer"
@@ -84,6 +89,7 @@ export default function Projects() {
         </a>
 
         <a
+          className="projects-link"
           href="https://github.com/eileen813/TacatoTruck"
           target="_blank"
           rel="noreferrer"
@@ -99,11 +105,12 @@ export default function Projects() {
       <div className="texts">
         <p>
           An interactive full-stack, full CRUD app, using a RESTful JSON API
-          with the so-called "React on Rails" stack. The app allows user to sign
-          in and keep track of all their home remodeling projects, by means of
-          adding, editing, or deleting a project.
+          with the so-called "React on Rails" stack. The app allows a user to
+          sign in and keep track of all their home remodeling projects, by means
+          of adding, editing, or deleting a project.
         </p>
         <a
+          className="projects-link"
           href="https://home-pro.netlify.app/"
           target="_blank"
           rel="noreferrer"
@@ -112,6 +119,7 @@ export default function Projects() {
         </a>
 
         <a
+          className="projects-link"
           href="https://github.com/eileen813/homepro"
           target="_blank"
           rel="noreferrer"

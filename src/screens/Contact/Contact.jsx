@@ -4,21 +4,33 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <>
-      <div className="email">
+      <div className="contact-text">
         <h1>
           <span>E</span>ileen<span>O</span>
           livera@Hotmail.Com
         </h1>
       </div>
 
-      <div>
+      <div className="contact-text">
         <a
           href="https://www.linkedin.com/in/eileen-olivera/"
           target="_blank"
           noreferrer="noreferrer"
         >
           <h1>
-            Catch m<span>e o</span>n LinkedIn Here!
+            Catch me on LinkedIn Here! <span>eileen-olivera</span>
+          </h1>
+        </a>
+      </div>
+
+      <div className="contact-text">
+        <a
+          href="https://github.com/eileen813"
+          target="_blank"
+          noreferrer="noreferrer"
+        >
+          <h1>
+            Click Here For My Github! <span>eileen813</span>
           </h1>
         </a>
       </div>
