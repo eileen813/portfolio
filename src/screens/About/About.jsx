@@ -43,6 +43,7 @@ export default function About() {
               rows={item.rows || 1}
             >
               <img
+                className="grid-images"
                 {...srcset(item.img, 121, item.rows, item.cols)}
                 alt={item.title}
                 loading="lazy"

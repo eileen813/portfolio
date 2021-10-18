@@ -23,3 +23,24 @@ h1 {
 .image-list {
   display: inline-flex;
 }
+
+@media screen and (max-width: 949px) {
+  .headshot {
+    height: 200px;
+    width: auto;
+  }
+  article {
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+
+  .image-list {
+    width: 100%;
+  }
+
+  .grid-images {
+    width: 20%;
+  }
+}
