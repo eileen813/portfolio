@@ -32,3 +32,14 @@
 .projects-link {
   padding: 10px;
 }
+
+@media screen and (max-width: 949px) {
+  .texts {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .images {
+    width: 50%;
+    margin-top: 30px;
+  }
+}
