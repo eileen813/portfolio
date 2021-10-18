@@ -22,7 +22,7 @@ ul {
   font-size: 70px;
   font-family: "Stalemate", cursive;
   margin-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 li {
@@ -39,6 +39,7 @@ header {
   height: 25%;
   float: left;
   margin-left: 30px;
+  margin-top: 5%;
 }
 
 .logo {
@@ -56,4 +57,5 @@ header {
   border-radius: 80%;
   float: right;
   margin-right: 30px;
+  margin-top: 5%;
 }

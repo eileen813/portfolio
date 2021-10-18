@@ -16,6 +16,7 @@ export default function About() {
   return (
     <>
       <div>
+        <img className="headshot" src="./headshot.jpeg" alt="headshot"></img>
         <article>
           As a software engineer with 10+ years as a real estate professional,
           and a thorough understanding of company branding, and client
@@ -23,28 +24,33 @@ export default function About() {
           engineering industry. When I'm not coding, I love spending time with
           my family, my pups, gardening, and photography.
         </article>
+        <h1>
+          Below are a few of my <span>favorite</span> things:
+        </h1>
       </div>
 
-      <ImageList
-        sx={{ width: 500, height: 450 }}
-        variant="quilted"
-        cols={4}
-        rowHeight={121}
-      >
-        {itemData.map((item) => (
-          <ImageListItem
-            key={item.img}
-            cols={item.cols || 1}
-            rows={item.rows || 1}
-          >
-            <img
-              {...srcset(item.img, 121, item.rows, item.cols)}
-              alt={item.title}
-              loading="lazy"
-            />
-          </ImageListItem>
-        ))}
-      </ImageList>
+      <div className="image-list">
+        <ImageList
+          sx={{ width: 500, height: 450 }}
+          variant="quilted"
+          cols={4}
+          rowHeight={121}
+        >
+          {itemData.map((item) => (
+            <ImageListItem
+              key={item.img}
+              cols={item.cols || 1}
+              rows={item.rows || 1}
+            >
+              <img
+                {...srcset(item.img, 121, item.rows, item.cols)}
+                alt={item.title}
+                loading="lazy"
+              />
+            </ImageListItem>
+          ))}
+        </ImageList>
+      </div>
     </>
   );
 }
@@ -94,18 +100,18 @@ const itemData = [
     rows: 3,
     cols: 2,
   },
+
   {
-    img: "https://images.unsplash.com/photo-1567306301408-9b74779a11af",
-    title: "Tomato basil",
+    img: "./bucs.jpeg",
+    title: "bucs",
+    rows: 2,
+    cols: 2,
   },
-  {
-    img: "https://images.unsplash.com/photo-1471357674240-e1a485acb3e1",
-    title: "Sea star",
-  },
+
   {
     img: "./florida.jpeg",
     title: "Florida",
-    rows: 3,
-    cols: 3,
+    rows: 5,
+    cols: 4,
   },
 ];
