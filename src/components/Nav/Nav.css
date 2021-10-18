@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Stalemate&display=swap");
+
 a:link {
   color: orange;
 }
@@ -17,7 +19,8 @@ a:active {
 ul {
   list-style: none;
   text-align: center;
-  font-size: 30px;
+  font-size: 70px;
+  font-family: "Stalemate", cursive;
 }
 
 li {
