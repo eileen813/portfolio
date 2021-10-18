@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Glass+Antiqua&family=Stalemate&display=swap");
+
 .project-container {
   display: flex;
   flex-direction: column;
@@ -14,13 +16,17 @@
   box-shadow: 0 5px 35px 0px orange;
 }
 
+.cityslicker,
+.tacato {
+  border-style: double;
+}
+
 .texts {
   margin-bottom: 50px;
+  font-family: "Glass Antiqua", cursive;
+  font-size: 35px;
 }
 
 .projects-link {
   padding: 10px;
-  border-bottom-style: solid;
-  border-bottom-color: white;
-  margin-bottom: 50px;
 }

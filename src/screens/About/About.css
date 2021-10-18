@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Glass+Antiqua&family=Stalemate&display=swap");
+
+article {
+  display: flex;
+  font-family: "Glass Antiqua", cursive;
+  font-size: 30px;
+  margin: 100px;
+  color: white;
+}

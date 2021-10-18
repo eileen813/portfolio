@@ -21,6 +21,8 @@ ul {
   text-align: center;
   font-size: 70px;
   font-family: "Stalemate", cursive;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 li {
@@ -40,7 +42,6 @@ header {
 }
 
 .logo {
-  /* height: auto; */
   width: 35%;
   margin-top: 40px;
 }
